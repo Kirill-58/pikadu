@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pikadu - Новый пост</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+    <div class="header-wrapper">
+        <a href="/" class="logo-link"><img src="./assets/img/logo.svg" alt="logo" class="logo-img"></a>
+        <nav class="header-menu">
+            <ul class="menu-items">
+                <li class="menu-item"><a href="#" class="menu-item-link">Свежее</a></li>
+                <li class="menu-item"><a href="#" class="menu-item-link">Горячее</a></li>
+                <li class="menu-item"><a href="#" class="menu-item-link">Лучшее</a></li>
+                <li class="menu-item"><a href="#" class="menu-item-link">Подписки</a></li>
+            </ul>
+        </nav>
+        <div class="search-group">
+            <input type="search" class="search" placeholder="Поиск по сайту">
+            <button class="search-button">
+                <img src="assets/img/search.svg" alt="search">
+            </button>
+        </div>
+        <a href="#" class="menu-toggle" id="menu-toggle">
+            <span class="menu-toggle-item"></span>
+            <span class="menu-toggle-item"></span>
+            <span class="menu-toggle-item"></span>
+        </a>
+    </div>
+</header>
+<div class="content">
+    <main class="posts">
+        <form action="" class="add-post">
+            <input type="text" class="add-title" placeholder="Заголовок поста">
+            <textarea name="add-post-text" class="add-text" placeholder="Текст вашего поста"></textarea>
+            <div class="button-group">
+                <button class="button-new-post add-post-button">
+                    <svg width="11" height="14" class="icon icon-fire">
+                        <use xlink:href="./assets/img/post-icons.svg#fire"></use>
+                    </svg>
+                    Опубликовать пост
+                </button>
+                <div class="add-post-media-button-group">
+                <button class="add-post-media add-post-media-video">
+                    <svg width="14" height="11" class="icon icon-media">
+                        <use xlink:href="./assets/img/post-icons.svg#video-icon"></use>
+                    </svg>
+                    <span class="button-media-text">Видео</span>
+                </button>
+                <button class="add-post-media add-post-media-photo">
+                    <svg width="14" height="11" class="icon icon-media">
+                        <use xlink:href="./assets/img/post-icons.svg#photo-icon"></use>
+                    </svg>
+                    <span class="button-media-text">Фото </span>
+                </button>
+                </div>
+            </div>
+        </form>
+    </main>
+    <aside class="sidebar">
+        <div class="user-info">
+            <a href="#" class="user-home-link">
+                <img src="./assets/img/avatar.jpg" width="40" height="40" alt="photo: user" class="user-photo">
+                <span class="user-name">
+            Alexey K.
+        </span>
+            </a>
+            <a href="#" class="exit-link">
+                <svg height="20" width="20">
+                    <use xlink:href="./assets/img/post-icons.svg#exit"></use>
+                </svg>
+            </a>
+        </div>
+        <nav class="sidebar-nav">
+            <ul class="sidebar-menu">
+                <li class="sidebar-menu-item"><a href="#" class="sidebar-menu-link active">Ответы</a></li>
+                <li class="sidebar-menu-item"><a href="#" class="sidebar-menu-link">Комментарии</a></li>
+                <li class="sidebar-menu-item"><a href="#" class="sidebar-menu-link">Оценки</a></li>
+                <li class="sidebar-menu-item"><a href="#" class="sidebar-menu-link">Сохраненное</a></li>
+                <li class="sidebar-menu-item"><a href="#" class="sidebar-menu-link">Подписки</a></li>
+                <li class="sidebar-menu-item"><a href="#" class="sidebar-menu-link">Заметки</a></li>
+                <li class="sidebar-menu-item"><a href="#" class="sidebar-menu-link">Игнор-лист</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="button button-new-post">
+            <svg width="11" height="14" class="icon icon-fire">
+                <use xlink:href="./assets/img/post-icons.svg#fire"></use>
+            </svg>
+            Опубликовать пост</a>
+        <a href="#" class="promo">
+
+        </a>
+    </aside>
+</div>
+<script src="./js/index.js"></script>
+</body>
+</html>
