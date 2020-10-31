@@ -27,6 +27,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../git-course" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -46,7 +47,7 @@
       <workItem from="1603562468239" duration="675000" />
       <workItem from="1603564364657" duration="7974000" />
       <workItem from="1603994339914" duration="6592000" />
-      <workItem from="1604155045002" duration="4768000" />
+      <workItem from="1604155045002" duration="5704000" />
     </task>
     <servers />
   </component>
