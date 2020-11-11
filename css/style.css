@@ -276,8 +276,58 @@ input.search::placeholder {
     margin-right: 120px;
 }
 
-.user-info {
+.login {
+    padding: 15px 25px;
+    background: #FAFAFA;
+    border: 1px solid #E8E8E8;
+    align-items: center;
+    display: none;
+    margin-bottom: 15px;
+}
+.login.visible,.sidebar-nav.visible {
+    display: block;
+}
+.login-form {
     display: flex;
+    flex-direction: column;
+}
+.login-title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #595959;
+}
+.login-input {
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    display: block;
+    background-color: #fff;
+    border: 1px solid #e8e8e8;
+}
+.login-forget {
+    text-align: center;
+    font-size: 13px;
+    text-decoration: none;
+    color:#757575;
+}
+.login-button-group {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    text-transform: uppercase;
+
+}
+.login-signin,.login-signup {
+    cursor: pointer;
+}
+.login-signin {
+margin-right: 10px;
+}
+
+
+.user-info {
+    display: none;
     justify-content: space-between;
     align-items: center;
     padding: 15px 25px;
@@ -305,7 +355,11 @@ input.search::placeholder {
 }
 
 .sidebar-nav {
+    display: none;
     margin-bottom: 20px;
+}
+.user-info.visible, .button-new-post.visible {
+    display: flex;
 }
 
 .sidebar-menu {
@@ -342,12 +396,13 @@ input.search::placeholder {
 }
 
 .button-new-post {
+    display: none;
     padding-top: 13px;
     padding-bottom: 13px;
     background: #FAAD14;
     border-radius: 4px;
     text-decoration: none;
-    display: flex;
+    /*display: flex;*/
     justify-content: center;
     align-items: center;
     font-size: 16px;
