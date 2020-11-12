@@ -267,6 +267,12 @@ input.search::placeholder {
     color: #BFBFBF;
 }
 
+.icon-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .icon-like, .icon-comments {
     margin-right: 6px;
 }
@@ -284,7 +290,7 @@ input.search::placeholder {
     display: none;
     margin-bottom: 15px;
 }
-.login.visible,.sidebar-nav.visible {
+.login.visible,.sidebar-nav.visible,.user-info.visible {
     display: block;
 }
 .login-form {
@@ -358,7 +364,7 @@ margin-right: 10px;
     display: none;
     margin-bottom: 20px;
 }
-.user-info.visible, .button-new-post.visible {
+.button-new-post.visible {
     display: flex;
 }
 
@@ -415,7 +421,28 @@ margin-right: 10px;
     margin-right: 10px;
     fill: white;
 }
-
+.edit-container {
+    display: none;
+}
+.edit-label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.edit-input {
+    margin-left: auto;
+    padding: 5px;
+}
+.edit-btn {
+    margin: 0 auto;
+}
+.edit-info {
+    fill: #000000;
+    margin-right: 15px;
+}
+.edit-container.visible {
+    display: block;
+}
 .comment-today {
     background: #FFFFFF;
     border: 1px solid #E8E8E8;
@@ -679,6 +706,13 @@ input.add-text::placeholder {
 
     .post-button {
         margin-right: 15px;
+    }
+    .edit-label {
+        flex-direction: column;
+        align-items: start;
+    }
+    .edit-input {
+        margin-left: 0;
     }
 }
 @media (max-width: 576px) {

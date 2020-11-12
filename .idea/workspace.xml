@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7648f85-461f-435e-add6-3870098b833d" name="Default Changelist" comment="" />
+    <list default="true" id="b7648f85-461f-435e-add6-3870098b833d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/post-icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/post-icons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +22,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1j9bwtcp1zsRLHQg7Ei8dOHizvI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,7 +34,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../git-course" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -47,7 +56,9 @@
       <workItem from="1603562468239" duration="675000" />
       <workItem from="1603564364657" duration="7974000" />
       <workItem from="1603994339914" duration="6592000" />
-      <workItem from="1604155045002" duration="5704000" />
+      <workItem from="1604155045002" duration="6579000" />
+      <workItem from="1605027314101" duration="35822000" />
+      <workItem from="1605188173132" duration="8770000" />
     </task>
     <servers />
   </component>
@@ -59,9 +70,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="848" y="307" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603389379241" />
-    <state x="809" y="255" key="FileChooserDialogImpl" timestamp="1604156635992">
+    <state x="809" y="255" key="FileChooserDialogImpl" timestamp="1604240951744">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="809" y="255" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604156635992" />
+    <state x="809" y="255" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604240951744" />
   </component>
 </project>
